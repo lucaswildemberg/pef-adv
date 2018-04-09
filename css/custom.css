@@ -90,6 +90,17 @@ a:hover, a:active, a:focus {
     color: #baae40;
 }
 
+/* spinner load page */
+#spinner{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../img/Preloader_1.gif) 50% 50% no-repeat #fbfefc;
+}
+
 /*-------------------
 
   NAVBAR & TOP MENU

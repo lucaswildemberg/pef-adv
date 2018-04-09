@@ -33,6 +33,9 @@
 </head>
 
 <body>
+  <!-- spinner load page-->
+  <div id="spinner">  </div>
+
   <!-- Header -->
   <nav class="navbar navbar-toggleable-sm navbar-light fixed-top bg-black">
     <div class="container">
@@ -497,7 +500,7 @@
           </div> -->
         </div>
         <div class="footer-widget col-md-6 offset-4 float-right">
-<div class="fb-page" data-href="https://www.facebook.com/pauloesmaelfreiresadv/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/pauloesmaelfreiresadv/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/pauloesmaelfreiresadv/">Paulo Esmael Freire Advogados</a></blockquote></div>
+            <div class="fb-page" data-href="https://www.facebook.com/pauloesmaelfreiresadv/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/pauloesmaelfreiresadv/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/pauloesmaelfreiresadv/">Paulo Esmael Freire Advogados</a></blockquote></div>
         </div>
 
       </div>
@@ -516,10 +519,14 @@
   <script src="js/tether.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
-
   <script src="js/form-validator.min.js"></script>
   <script src="js/contact-form-script.js"></script>
   <script src="js/main.js"></script>
+  <script type="text/javascript">
+      $(window).on('load', function(){
+          $("#spinner").fadeOut("slow");
+      });
+  </script>
   <div id="fb-root">
   <script>
     (function(d, s, id) {
