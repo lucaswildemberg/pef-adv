@@ -372,11 +372,13 @@ footer .social a {
 footer .social a:hover {
     color: #baae40;
 }
-
 footer .menu li a:hover {
     color: #bbb043;
 }
 
+.footer-widget img {
+  max-width: 200px;
+}
 .social-footer a i {
     border: 1px solid #baae40;
 }
