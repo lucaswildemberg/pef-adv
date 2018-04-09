@@ -372,6 +372,11 @@ footer .social a {
 footer .social a:hover {
     color: #baae40;
 }
+
+footer .menu li a:hover {
+    color: #bbb043;
+}
+
 .social-footer a i {
     border: 1px solid #baae40;
 }
